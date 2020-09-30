@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.FrameWorkDesign.Listerners.ApplyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.FrameWorkDesign.Test.AutomationHomePageTest">
+        <methods>
+          <include name="verifyresigstration"/>
+          <include name="loadUrl"/>
+          <include name="loadSetup"/>
+          <include name="verifyLogout"/>
+        </methods>
+      </class> <!-- com.FrameWorkDesign.Test.AutomationHomePageTest -->
+      <class name="com.FrameWorkDesign.Test.AutomationWomenPageTest">
+        <methods>
+          <include name="shippingTerms"/>
+          <include name="detailOfAddress"/>
+          <include name="confirmPayment"/>
+          <include name="selectAlterPayment"/>
+        </methods>
+      </class> <!-- com.FrameWorkDesign.Test.AutomationWomenPageTest -->
+      <class name="com.FrameWorkDesign.Test.AutomationWomenPage_SummaryTest">
+        <methods>
+          <include name="summaryLanding"/>
+          <include name="qtyIncrese"/>
+        </methods>
+      </class> <!-- com.FrameWorkDesign.Test.AutomationWomenPage_SummaryTest -->
+      <class name="com.FrameWorkDesign.Test.AutomationWomenPage_OrderHistoryTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="closeresources"/>
+          <include name="navOrderHistory"/>
+          <include name="orderReorderVerify"/>
+          <include name="verifyOrderHistoryProduct"/>
+        </methods>
+      </class> <!-- com.FrameWorkDesign.Test.AutomationWomenPage_OrderHistoryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  <listener class-name ="com.FrameWorkDesign.Listerners.ApplyListeners"/>
+  </listeners> 
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.FrameWorkDesign.Test.AutomationHomePageTest"/>
+      <class name="com.FrameWorkDesign.Test.AutomationMyAccountPageTest"/>
+      <class name="com.FrameWorkDesign.Test.AutomationWomenPageTest"/>
+      <class name="com.FrameWorkDesign.Test.AutomationWomenPage_SummaryTest"/>
+      <class name="com.FrameWorkDesign.Test.AutomationWomenPage_OrderHistoryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

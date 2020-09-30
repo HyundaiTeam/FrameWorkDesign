@@ -1,0 +1,8 @@
+com\FrameWorkDesign\Base\CommonComponents.class
+com\FrameWorkDesign\Page\AutomationPractiseHomePage.class
+com\FrameWorkDesign\Config\ConfigurationLoader.class
+com\FrameWorkDesign\Page\AutomationPractiseDressesPage.class
+com\FrameWorkDesign\Ultilities\ReadWriteData.class
+com\FrameWorkDesign\Page\AutomationPractiseMyAccountPage.class
+com\FrameWorkDesign\Ultilities\SendEmail.class
+com\FrameWorkDesign\Ultilities\Reporter.class
